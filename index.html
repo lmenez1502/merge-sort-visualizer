@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merge Sort Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Merge Sort Visualizer</h1>
+        <div class="controls">
+            <button id="generate-array">Gerar Novo Array</button>
+            <button id="sort-array">Ordenar (Merge Sort)</button>
+        </div>
+        <div class="array-container" id="array-container"></div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const script = document.createElement("script");
+            script.src = "script.js";
+            document.body.appendChild(script);
+        });
+    </script>
+</body>
+</html>
